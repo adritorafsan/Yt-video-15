@@ -5,3 +5,113 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, rgb(98, 98, 194),rgb(100, 198, 141));
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding-top: 10%;
+    height: 600px;
+    width: 600px;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 14px;
+    background: linear-gradient(to bottom left,rgb(198, 100, 186), rgb(98, 162, 194));
+    flex-direction: column;
+    box-shadow: 10px 10px 30px rgba(0,0,0,.5);
+}
+
+.container h2{
+    color: cyan;
+    font-size: 2.4em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 10px cyan;
+}
+
+.container h4{
+    color: blueviolet;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 10px blueviolet;
+}
+
+.userinput label{
+    color: cyan;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px cyan;
+}
+
+.userinput input{
+    height: 40px;
+    width: 200px;
+    background: rgba(0,0,0,.2);
+    box-shadow: 5px 7px 20px rgba(0,0,0,.5);
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.btn,.reset{
+    margin-top: 30px;
+    height: 45px;
+    width: 200px;
+    box-shadow: 5px 7px 20px rgba(0,0,0,.5);
+    background: linear-gradient(to bottom left, rgb(98, 98, 194),rgb(100, 198, 141));
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.btn:hover,.reset:hover{
+    
+    background: linear-gradient(to bottom left,rgb(198, 100, 186), rgb(98, 162, 194));
+}
+
+.resultinput{
+    margin-left: -30%;
+    margin-top: 20px;
+}
+
+.resultinput label{
+    color: blueviolet;
+    font-size: 1.3em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultinput label p{
+    height: 40px;
+    width: 330px;
+    background: rgba(194, 81, 187, 0.2);
+    box-shadow: 5px 7px 20px rgba(0,0,0,.5);
+    border: none;
+    color: white;
+    font-size: .7em;
+    padding-left: 10px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.reset{
+    margin-right: -63%;
+    margin-top: 8%;
+    width: 150px;
+    font-size: 1.1em;
+}
