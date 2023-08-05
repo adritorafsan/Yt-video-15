@@ -14,7 +14,7 @@ btn.addEventListener("click", ()=>{
     let userinput = usernumber.value;
     if(userinput==answer){
       
-        result.textContent= (`Succesfull The number is ${userinput} It tooks you ${guesses}`)
+        result.textContent= (`Succesfull The number is ${userinput} It tooks you ${guesses}Guesses`)
         
     }
     else if(userinput > answer){
